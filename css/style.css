@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+h1{
+    font-family:'Otomanopee One', sans-serif;
+    font-size: 4rem;
+    color: #353500;
+}
+h2{
+    font-size: 2rem;
+    font-family: 'Open Sans', sans-serif;
+    color: #404040;
+}
+p{
+    font-family: 'open sans', sans-serif;
+    color: #252525;
+}
