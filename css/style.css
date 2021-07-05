@@ -5,14 +5,22 @@
     box-sizing: border-box;
     outline: none;
 }
-
+.container{
+    width: 1140px;
+    margin: auto;
+    padding: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: nowrap;
+}
 h1{
     font-family:'Otomanopee One', sans-serif;
     font-size: 4rem;
-    color: #353500;
+    color: #f5da57;
 }
 h2{
-    font-size: 2rem;
+    font-size: 3rem;
     font-family: 'Open Sans', sans-serif;
     color: #404040;
 }
@@ -22,3 +30,32 @@ p{
 }
 /* common codes end */
 
+/* banner part css start */
+#banner{
+    padding: 50px 0;
+    background: url(../image/top-banner.png);
+    background-repeat: no-repeat;
+}
+.webName{
+    margin: 4rem 0;
+}
+.bnrContent{
+    margin-right:100px;
+}
+.bnrImg {
+    margin: auto;
+}
+.bnrImg img{
+    height: 30rem;
+    display: inline-block;
+}
+.bnrpara{
+    margin: 30px 0;
+}
+.bnrContent h4{
+    text-transform: uppercase;
+}
+.bnrContent span{
+    
+}
+/* banner part css end */
